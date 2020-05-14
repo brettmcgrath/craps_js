@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <!-- Font Awesome Icons-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Language Icons -->
+    <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="custom.css">
+
+
+    <title>JavaScript Craps Game</title>
+  </head>
+
+  <body>
+    <div class="row no-gutters">
+        <div class="col">
+    
+    <table id="player-table">
+        <tbody>
+        <tr>
+        <td class="player1">Player 1</td>
+        <td class="player">Player 2</td>
+        <td class="player">Player 3</td>
+        <td class="player">Player 4</td>
+        <td class="player">Player 5</td>
+        <td class="player">Player 6</td>
+        <td class="player">Player 7</td>
+        </tr>
+        <tr>
+        <td class="player1">$0</td>
+        <td class="player">$0</td>
+        <td class="player">$0</td>
+        <td class="player">$0</td>
+        <td class="player">$0</td>
+        <td class="player">$0</td>
+        <td class="player">$0</td>
+        </tr>
+        </tbody>
+        </table>
+</div>
+    </div>
+    <div class="play-area">
+        <div class="row no-gutters">
+            <div class="col-sm-12 col-md-9 container-fluid">
+            
+                <img src="craps_table.jpg">
+
+            </div>
+
+            <div class="col-sm-12 col-md-3" id="right-col">
+                Use the button below or click and drag chips to place a bet<br><br>
+                <button id="bet"><h5>Place a bet</h5></button><br><br>
+                <span title="$1"><i class="fa fa-btc" aria-hidden="true" id="btc1"></i></span>
+                <span title="$5"><i class="fa fa-btc" aria-hidden="true" id="btc5"></i></span>
+                <span title="$25"><i class="fa fa-btc" aria-hidden="true" id="btc25"></i></span>
+                <span title="$100"> <i class="fa fa-btc" aria-hidden="true" id="btc100"></i></span>
+
+                <br><br>
+                <div id="dice-indicator"><h5>Player 1 rolled</h5></div>
+                <table id="dice-tbl">
+                    <tbody>
+                        <tr class="dice">
+                            <td class="die" id="die1"><h1>5</h1></td>
+                            <td class="spacer"></td>
+                            <td class="die" id="die2"><h1>2</h1></td>
+                        </tr>
+                    </tbody>
+                </table>
+                <table id="btn-container">
+                    <tbody>
+                        <tr>
+                            <audio id="dice_audio">
+                                <source src="sounds/dice_roll.mp3" type="audio/mpeg">
+                            <td><button id="roll-btn"><h5>Roll Dice</h5></button></audio></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="game-menu">
+        <button id="menu-btn"><h5>Sign in<h5></Purchase></button>
+        <button id="menu-btn"><h5>Sign up<h5></Purchase></button>
+        <button id="menu-btn"><h5>Purchase chips</h5></Purchase></button>
+        <button id="cash-out-btn"><h5>Cash out</h5></button>
+
+    </div>
+
+    
+
+    
+    
+
+    
+  </body>
+  <script src="app.js"></script>
+  </html>

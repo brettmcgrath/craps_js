@@ -1,0 +1,150 @@
+body {
+    background-color: #50C878;
+}
+
+.die {
+    border: none;
+    border-radius: 25px;
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    text-align: center;
+}
+
+#dice-indicator {
+    padding-bottom: 2%;
+}
+
+.player {
+    border: solid 3px black;
+    width: 100px;
+    height: 50px;
+    background-color: #90EE90;
+    text-align: center;
+}
+
+.player1 {
+    border: solid 3px black;
+    width: 100px;
+    height: 20px;
+    background-color: gold;
+    text-align: center;
+}
+
+
+#player-table {
+    width: 100%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+.btn-container {
+    border: none;
+    width: 200px;
+    height: 100px;
+    text-align: center;
+}
+
+#btn-container, #dice-tbl {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1%;
+}
+
+#right-col {
+    background-color: #90EE90;
+    padding-top: 1%;
+    padding-left: 1%;
+    text-align: center;
+}
+
+#roll-tbl {
+    background-color: #90EE90;
+    padding-top: 3%;
+    padding-bottom: 2%;
+    text-align: center;
+}
+
+#roll-btn {
+    padding-top: 5%;
+    margin-top: 10%;
+}
+
+img {
+    width: 100%;
+}
+
+.main-text {
+    margin-left: 1%;
+}
+
+#dice-indicator {
+    text-align: center;
+    padding-top: 1%;
+}
+
+.fa {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    font-size: 50px;
+    width: 75px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
+
+#btc1 {
+    background-color: white;
+    color: red;
+    border: dashed red 7px;
+}
+
+#btc5 {
+    background-color: red;
+    color: gold;
+    border: dashed gold 7px;
+}
+
+#btc25 {
+    background-color: green;
+    color: white;
+    border: dashed white 7px;
+}
+
+#btc100 {
+    background-color: black;
+    color: gold;
+    border: dashed gold 7px;
+}
+
+.spacer {
+    background-color: #90EE90;
+    width: 10px;
+}
+
+.game-menu {
+    padding-top: 1%;
+    padding-left: 1%;
+}
+
+#bet {
+    padding-top: 1%;
+}
+
+#menu-btn {
+    padding-top: 5px;
+    margin-right: 1%;
+}
+
+#cash-out-btn {
+    padding-top: 5px;
+    margin-right: 1%;
+}
+
+/*audio {
+    display: none;
+}
